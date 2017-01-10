@@ -1,0 +1,10 @@
+routes:
+  -
+    path: /test/{id}
+    response: "blablabla"
+    methods: ["GET"]
+  -
+    path: /test
+    response: "blablabla"
+    methods: ["GET"]
+port: :12345
