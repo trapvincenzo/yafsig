@@ -12,3 +12,8 @@ go get github.com/stretchr/testify
 ```go
 go build && ./yafsig
 ```
+
+## tests
+```go
+go test
+```
