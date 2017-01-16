@@ -7,9 +7,6 @@ go get github.com/gorilla/mux
 go get gopkg.in/yaml.v2
 ```
 
-## First config
-Rename `config.yaml.dist` to `config.yaml`
-
 ## Build and run it
 ```go
 go build && ./yafsig
