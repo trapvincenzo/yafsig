@@ -5,6 +5,7 @@ Well I wanted to create something to start playing a bit with go, and I said to 
 ```go
 go get github.com/gorilla/mux
 go get gopkg.in/yaml.v2
+go get github.com/stretchr/testify
 ```
 
 ## Build and run it
