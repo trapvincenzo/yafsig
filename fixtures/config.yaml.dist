@@ -1,0 +1,11 @@
+routes:
+  -
+    path: /test/{id}
+    response: "{\"response\": \"OK\"}"
+    methods: ["GET"]
+    responseType: json
+  -
+    path: /test
+    response: "text!"
+    methods: ["GET"]
+port: :12345

@@ -61,7 +61,7 @@ func TestNewFakeServer(t *testing.T) {
 	router.On("HandleFunc", "/test/{id}", mock.AnythingOfType("func(http.ResponseWriter, *http.Request)")).Return(nil)
 	http.On("ListenAndServe", ":12345", router).Return(nil)
 
-	NewFakeServer(&FakeServerParams{Router: router, HTTP: http, ConfigFilename: "fixtures/config.yaml"})
+	NewFakeServer(&FakeServerParams{Router: router, HTTP: http, ConfigFilename: "fixtures/config.yaml.dist"})
 	router.AssertExpectations(t)
 	http.AssertExpectations(t)
 
