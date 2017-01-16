@@ -13,7 +13,7 @@ go get github.com/stretchr/testify
 go build && ./yafsig
 ```
 
-## tests
+## Tests
 ```go
 go test
 ```
